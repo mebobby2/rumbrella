@@ -11,6 +11,10 @@ The Umbrella App for the Rumbl application
 
 1. From root of this project, run ```mix phoenix.server```
 
+## To Test
+
+1. From root, run ```mix test```
+
 ## Upto
 Page 516
 Chapter 13
