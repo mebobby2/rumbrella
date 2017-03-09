@@ -11,12 +11,3 @@ The Umbrella App for the Rumbl application
 ## Run
 
 1. From root of this project, run ```mix phoenix.server```
-
-## Notes
-
-### Git pull
-Whenever you make new changes to a submodule, you have to pull the latest changes from the submodule here. Use the command
-```
-git submodule update --recursive --remote
-```
-And then push the new changes as a commit.
