@@ -18,5 +18,3 @@ The Umbrella App for the Rumbl application
 ## Upto
 Page 516
 Chapter 13
-
-Before that - get this umbrella project working by following chapter 12
