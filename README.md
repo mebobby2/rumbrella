@@ -1,4 +1,4 @@
 # Rumbrella
 
-**TODO: Add description**
+The Umbrella App for the Rumbl application
 
