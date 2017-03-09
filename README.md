@@ -6,7 +6,7 @@ The Umbrella App for the Rumbl application
 
 1. Go into apps/info_sys and run ```mix deps.get```
 2. Go into apps/rumbl/ and run ```mix deps.get```
-3. Go into apps/rumbl/ and run ```npm install``
+3. Go into apps/rumbl/ and run ``npm install```
 
 ## Run
 
