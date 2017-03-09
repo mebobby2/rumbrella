@@ -35,5 +35,3 @@ The better strategy is to identify code that’s difficult to test live, and to 
 ## Upto
 Page 536
 Using our stubbed HTTP client, we add our first test case on line 5. First, we spawn a Wolfram backend with start_link.
-
-Before that: get the tests to pass
