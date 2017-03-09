@@ -1,0 +1,3 @@
+[submodule "apps/rumbl"]
+	path = apps/rumbl
+	url = https://github.com/mebobby2/rumbl
