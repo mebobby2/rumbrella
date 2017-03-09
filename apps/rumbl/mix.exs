@@ -3,15 +3,19 @@ defmodule Rumbl.Mixfile do
 
   def project do
     [app: :rumbl,
-     version: "0.1.0",
+     version: "0.0.1",
+     elixir: "~> 1.2",
+     elixirc_paths: elixirc_paths(Mix.env),
+     compilers: [:phoenix, :gettext] ++ Mix.compilers,
+     build_embedded: Mix.env == :prod,
+     start_permanent: Mix.env == :prod,
+     aliases: aliases(),
+     deps: deps(),
      build_path: "../../_build",
      config_path: "../../config/config.exs",
      deps_path: "../../deps",
-     lockfile: "../../mix.lock",
-     elixir: "~> 1.3",
-     build_embedded: Mix.env == :prod,
-     start_permanent: Mix.env == :prod,
-     deps: deps]
+     lockfile: "../../mix.lock"
+    ]
   end
 
   # Configuration for the OTP application.
